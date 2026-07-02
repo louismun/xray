@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 16px;
+  background: #000;
+  color: var(--ink);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #cfe8f5;
+}
+
+h2 {
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #cfe8f5;
+}
+
+p {
+  color: #9aa7b0;
+  line-height: 1.6;
+  font-size: 14px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a > div {
+  background: #12181d;
+  border: 1px solid #1f2a30;
+  border-left: 3px solid #56a19e;
+  color: #e6edf3;
+  padding: 14px 16px;
+  margin-bottom: 8px;
+  border-radius: 4px;
+  font-size: 15px;
+}
+
+a > div:active {
+  background: #182127;
+}
+
+button {
+  background: transparent;
+  color: #56a19e;
+  border: 1px solid #56a19e;
+  padding: 8px 14px;
+  border-radius: 4px;
+  font-size: 13px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  align-self: flex-start;
+}
+
+button:active {
+  background: rgba(63, 169, 214, 0.12);
+}
+
+.home-title {
+  text-align: center;
+  padding-top: 28px;
+}
+
+.anatomy-page {
+  display: flex;
+  flex-direction: column;
+}
+
+.anatomy-page h1 {
+  text-align: center;
+}
+
+.subcategory {
+  padding-bottom: 20px;
+}
+
+.subcategory h1 {
+  text-align: center;
+}
+
+.image-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+}
+
+.image-row img {
+  width: calc(50% - 8px);
+
+  display: block;
+  background: #000;
+  border-radius: 4px;
+}
+
+.bottom-content {
+  border-top: 1px solid #1f2a30;
+  padding-top: 12px;
+}
