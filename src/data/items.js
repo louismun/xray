@@ -268,7 +268,7 @@ export const items = [
             name: "Pelvis AP",
             images: [
               `${BASE}images/anatomy/pelvis/pelvis-ap-1.png`,
-              `${BASE}images/anatomy/pelvis/pelvis-ap-1.png`
+              `${BASE}images/anatomy/pelvis/pelvis-ap-2.png`
             ],
             description: "WIP"
           }
