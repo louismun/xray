@@ -95,6 +95,75 @@ export const items = [
             description: "WIP"
           }
         ]
+      },
+      {
+        name: "Forearm",
+        items: [
+          {
+            id: "forearm-ap",
+            name: "Forearm AP",
+            images: [
+              `${BASE}images/anatomy/upper-limbs/forearm-ap-1.png`,
+              `${BASE}images/anatomy/upper-limbs/forearm-ap-2.png`
+            ],
+            description: "WIP"
+          },
+          {
+            id: "forearm-lateral",
+            name: "Forearm Lateral",
+            images: [
+              `${BASE}images/anatomy/upper-limbs/forearm-lateral-1.png`,
+              `${BASE}images/anatomy/upper-limbs/forearm-lateral-2.png`
+            ],
+            description: "WIP"
+          }
+        ]
+      },
+      {
+        name: "Wrist",
+        items: [
+          {
+            id: "wrist-pa",
+            name: "Wrist PA",
+            images: [
+              `${BASE}images/anatomy/upper-limbs/wrist-pa-1.png`,
+              `${BASE}images/anatomy/upper-limbs/wrist-pa-2.png`
+            ],
+            description: "WIP"
+          },
+          {
+            id: "wrist-lateral",
+            name: "Wrist Lateral",
+            images: [
+              `${BASE}images/anatomy/upper-limbs/wrist-lateral-1.png`,
+              `${BASE}images/anatomy/upper-limbs/wrist-lateral-2.png`
+            ],
+            description: "WIP"
+          }
+        ]
+      },
+      {
+        name: "Hand",
+        items: [
+          {
+            id: "hand-pa",
+            name: "Hand PA",
+            images: [
+              `${BASE}images/anatomy/upper-limbs/hand-pa-1.png`,
+              `${BASE}images/anatomy/upper-limbs/hand-pa-2.png`
+            ],
+            description: "WIP"
+          },
+          {
+            id: "hand-lateral",
+            name: "Hand Lateral",
+            images: [
+              `${BASE}images/anatomy/upper-limbs/hand-lateral-1.png`,
+              `${BASE}images/anatomy/upper-limbs/hand-lateral-2.png`
+            ],
+            description: "WIP"
+          }
+        ]
       }
     ]
   },
@@ -125,9 +194,140 @@ export const items = [
             description: "WIP"
           }
         ]
+      },
+      {
+        name: "Thoracic Vertebrae",
+        items: [
+          {
+            id: "thoracic-spine-ap",
+            name: "Thoracic Spine AP",
+            images: [
+              `${BASE}images/anatomy/chest/thoracic-spine-ap-1.png`,
+              `${BASE}images/anatomy/chest/thoracic-spine-ap-2.png`
+            ],
+            description: "WIP"
+          }
+        ]
       }
     ]
-  }
+  },
 
-  // 👇 keep rest of your structure the same using `${BASE}...` for ALL images
+  {
+    id: "abdomen",
+    name: "Abdomen - Lumbar Vertebrae",
+    subcategories: [
+      {
+        name: "Abdomen",
+        items: [
+          {
+            id: "direct-abdominal-decubitus",
+            name: "Direct Abdominal (decubitus position)",
+            images: [
+              `${BASE}images/anatomy/abdomen/direct-abdominal-decubitus-1.png`,
+              `${BASE}images/anatomy/abdomen/direct-abdominal-decubitus-2.png`
+            ],
+            description: "WIP"
+          },
+          {
+            id: "direct-abdominal-upright",
+            name: "Direct Abdominal (upright)",
+            images: [
+              `${BASE}images/anatomy/abdomen/direct-abdominal-upright-1.png`,
+              `${BASE}images/anatomy/abdomen/direct-abdominal-upright-2.png`
+            ],
+            description: "WIP"
+          }
+        ]
+      },
+      {
+        name: "Lumbosacral Spine",
+        items: [
+          {
+            id: "lumbar-spine-ap",
+            name: "Lumbar Spine AP",
+            images: [
+              `${BASE}images/anatomy/abdomen/lumbar-spine-ap-1.png`,
+              `${BASE}images/anatomy/abdomen/lumbar-spine-ap-2.png`
+            ],
+            description: "WIP"
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    id: "pelvis",
+    name: "Pelvis - Sacrum - Coccyx",
+    subcategories: [
+      {
+        name: "Pelvis",
+        items: [
+          {
+            id: "pelvis-ap",
+            name: "Pelvis AP",
+            images: [
+              `${BASE}images/anatomy/pelvis/pelvis-ap-1.png`,
+              `${BASE}images/anatomy/pelvis/pelvis-ap-1.png`
+            ],
+            description: "WIP"
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    id: "lower-limbs",
+    name: "Lower Limbs",
+    subcategories: [
+      {
+        name: "Femur",
+        items: [
+          {
+            id: "femur-ap",
+            name: "Femur AP",
+            images: [
+              `${BASE}images/anatomy/lower-limbs/femur-ap-1.png`,
+              `${BASE}images/anatomy/lower-limbs/femur-ap-2.png`
+            ],
+            description: "WIP"
+          },
+          {
+            id: "femur-lateral",
+            name: "Femur Lateral",
+            images: [
+              `${BASE}images/anatomy/lower-limbs/femur-lateral-1.png`,
+              `${BASE}images/anatomy/lower-limbs/femur-lateral-2.png`
+            ],
+            description: "WIP"
+          }
+        ]
+      },
+      {
+        name: "Knee",
+        items: [
+          {
+            id: "knee-ap",
+            name: "Knee AP",
+            images: [
+              `${BASE}images/anatomy/lower-limbs/knee-ap-1.png`,
+              `${BASE}images/anatomy/lower-limbs/knee-ap-2.png`
+            ],
+            description: "WIP"
+          },
+          {
+            id: "knee-lateral",
+            name: "Knee Lateral",
+            images: [
+              `${BASE}images/anatomy/lower-limbs/knee-lateral-1.png`,
+              `${BASE}images/anatomy/lower-limbs/knee-lateral-2.png`
+            ],
+            description: "WIP"
+          }
+        ]
+      }
+      // (rest of lower limbs follows same pattern)
+    ]
+  }
 ];
