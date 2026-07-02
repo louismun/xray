@@ -55,7 +55,9 @@ export default function Anatomy() {
       </div>
 
       <div className="bottom-content">
-        <p>{item.description}</p>
+        <p>kVp: {item.kVp}</p>
+        <p>mAs: {item.mAs}</p>
+        <p>SID: {item.sid}</p>
       </div>
     </div>
   );

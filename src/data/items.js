@@ -27,7 +27,11 @@ export const items = [
 - Identification of the patient's right.
 - Crags occupying the lower 2/3 of the orbit.
 - Equidistance between the innominate-cranial shell line on both sides.`,
-            sid: "40 in"
+            cm: 20,
+            kVp: 85,
+            mAs: 12.5,
+            sid: "40\"",
+            sidOriginal: "40 in"
           },
           {
             id: "skull-ap",
@@ -37,7 +41,11 @@ export const items = [
               `${BASE}images/anatomy/skull/skull-ap-2.png`
             ],
             description:
-              "Shows the entire skull in lateral projection including cranial sutures and mandible."
+              "Shows the entire skull in lateral projection including cranial sutures and mandible.",
+            cm: 20,
+            kVp: 85,
+            mAs: 12.5,
+            sid: "40\""
           },
           {
             id: "skull-lateral",
@@ -48,7 +56,11 @@ export const items = [
             ],
             lighting:
               "The cross influences the nasion. It falls perpendicular to the support plane, longitudinal beam coinciding with the sagittal median plane, and the transverse beam coinciding with the orbital meatus plane. The transverse beam passes through the external ear canals. The ray emerges in the inion.",
-            chassis: "24x30 located longitudinally"
+            chassis: "24x30 located longitudinally",
+            cm: 15,
+            kVp: 85,
+            mAs: 6.3,
+            sid: "40\""
           }
         ]
       }
@@ -69,7 +81,11 @@ export const items = [
               `${BASE}images/anatomy/upper-limbs/shoulder-ap-1.png`,
               `${BASE}images/anatomy/upper-limbs/shoulder-ap-2.png`
             ],
-            description: "WIP"
+            description: "WIP",
+            cm: 18,
+            kVp: 85,
+            mAs: 10,
+            sid: "40\""
           }
         ]
       },
@@ -83,7 +99,11 @@ export const items = [
               `${BASE}images/anatomy/upper-limbs/elbow-ap-1.png`,
               `${BASE}images/anatomy/upper-limbs/elbow-ap-2.png`
             ],
-            description: "WIP"
+            description: "WIP",
+            cm: 8,
+            kVp: 70,
+            mAs: 2.5,
+            sid: "40\""
           },
           {
             id: "elbow-oblique",
@@ -92,7 +112,11 @@ export const items = [
               `${BASE}images/anatomy/upper-limbs/elbow-oblique-1.png`,
               `${BASE}images/anatomy/upper-limbs/elbow-oblique-2.png`
             ],
-            description: "WIP"
+            description: "WIP",
+            cm: 8,
+            kVp: 70,
+            mAs: 2.5,
+            sid: "40\""
           }
         ]
       },
@@ -106,7 +130,11 @@ export const items = [
               `${BASE}images/anatomy/upper-limbs/forearm-ap-1.png`,
               `${BASE}images/anatomy/upper-limbs/forearm-ap-2.png`
             ],
-            description: "WIP"
+            description: "WIP",
+            cm: 7,
+            kVp: 70,
+            mAs: 2.2,
+            sid: "40\""
           },
           {
             id: "forearm-lateral",
@@ -115,7 +143,11 @@ export const items = [
               `${BASE}images/anatomy/upper-limbs/forearm-lateral-1.png`,
               `${BASE}images/anatomy/upper-limbs/forearm-lateral-2.png`
             ],
-            description: "WIP"
+            description: "WIP",
+            cm: 7,
+            kVp: 70,
+            mAs: 2.2,
+            sid: "40\""
           }
         ]
       },
@@ -129,7 +161,11 @@ export const items = [
               `${BASE}images/anatomy/upper-limbs/wrist-pa-1.png`,
               `${BASE}images/anatomy/upper-limbs/wrist-pa-2.png`
             ],
-            description: "WIP"
+            description: "WIP",
+            cm: 4,
+            kVp: 66,
+            mAs: 2,
+            sid: "40\""
           },
           {
             id: "wrist-lateral",
@@ -138,7 +174,11 @@ export const items = [
               `${BASE}images/anatomy/upper-limbs/wrist-lateral-1.png`,
               `${BASE}images/anatomy/upper-limbs/wrist-lateral-2.png`
             ],
-            description: "WIP"
+            description: "WIP",
+            cm: 6,
+            kVp: 70,
+            mAs: 2.5,
+            sid: "40\""
           }
         ]
       },
@@ -152,7 +192,11 @@ export const items = [
               `${BASE}images/anatomy/upper-limbs/hand-pa-1.png`,
               `${BASE}images/anatomy/upper-limbs/hand-pa-2.png`
             ],
-            description: "WIP"
+            description: "WIP",
+            cm: 3,
+            kVp: 66,
+            mAs: 1.6,
+            sid: "40\""
           },
           {
             id: "hand-lateral",
@@ -161,7 +205,11 @@ export const items = [
               `${BASE}images/anatomy/upper-limbs/hand-lateral-1.png`,
               `${BASE}images/anatomy/upper-limbs/hand-lateral-2.png`
             ],
-            description: "WIP"
+            description: "WIP",
+            cm: 7,
+            kVp: 70,
+            mAs: 2.5,
+            sid: "40\""
           }
         ]
       }
@@ -182,7 +230,11 @@ export const items = [
               `${BASE}images/anatomy/chest/chest-pa-1.png`,
               `${BASE}images/anatomy/chest/chest-pa-2.png`
             ],
-            description: "WIP"
+            description: "WIP",
+            cm: 22,
+            kVp: 120,
+            mAs: 2.8,
+            sid: "72\""
           },
           {
             id: "chest-lateral",
@@ -191,7 +243,11 @@ export const items = [
               `${BASE}images/anatomy/chest/chest-lateral-1.png`,
               `${BASE}images/anatomy/chest/chest-lateral-2.png`
             ],
-            description: "WIP"
+            description: "WIP",
+            cm: 33,
+            kVp: 120,
+            mAs: 7.1,
+            sid: "72\""
           }
         ]
       },
@@ -205,7 +261,11 @@ export const items = [
               `${BASE}images/anatomy/chest/thoracic-spine-ap-1.png`,
               `${BASE}images/anatomy/chest/thoracic-spine-ap-2.png`
             ],
-            description: "WIP"
+            description: "WIP",
+            cm: 21,
+            kVp: 90,
+            mAs: 20,
+            sid: "40\""
           }
         ]
       }
@@ -226,7 +286,11 @@ export const items = [
               `${BASE}images/anatomy/abdomen/direct-abdominal-decubitus-1.png`,
               `${BASE}images/anatomy/abdomen/direct-abdominal-decubitus-2.png`
             ],
-            description: "WIP"
+            description: "WIP",
+            cm: 24,
+            kVp: 85,
+            mAs: 22,
+            sid: "40\""
           },
           {
             id: "direct-abdominal-upright",
@@ -235,7 +299,11 @@ export const items = [
               `${BASE}images/anatomy/abdomen/direct-abdominal-upright-1.png`,
               `${BASE}images/anatomy/abdomen/direct-abdominal-upright-2.png`
             ],
-            description: "WIP"
+            description: "WIP",
+            cm: 21,
+            kVp: 85,
+            mAs: 25,
+            sid: "40\""
           }
         ]
       },
@@ -249,7 +317,11 @@ export const items = [
               `${BASE}images/anatomy/abdomen/lumbar-spine-ap-1.png`,
               `${BASE}images/anatomy/abdomen/lumbar-spine-ap-2.png`
             ],
-            description: "WIP"
+            description: "WIP",
+            cm: 21,
+            kVp: 90,
+            mAs: 20,
+            sid: "40\""
           }
         ]
       }
@@ -270,7 +342,11 @@ export const items = [
               `${BASE}images/anatomy/pelvis/pelvis-ap-1.png`,
               `${BASE}images/anatomy/pelvis/pelvis-ap-2.png`
             ],
-            description: "WIP"
+            description: "WIP",
+            cm: 19,
+            kVp: 85,
+            mAs: 25,
+            sid: "40\""
           }
         ]
       }
@@ -291,7 +367,11 @@ export const items = [
               `${BASE}images/anatomy/lower-limbs/femur-ap-1.png`,
               `${BASE}images/anatomy/lower-limbs/femur-ap-2.png`
             ],
-            description: "WIP"
+            description: "WIP",
+            cm: 19,
+            kVp: 87.5,
+            mAs: 14,
+            sid: "40\""
           },
           {
             id: "femur-lateral",
@@ -300,7 +380,11 @@ export const items = [
               `${BASE}images/anatomy/lower-limbs/femur-lateral-1.png`,
               `${BASE}images/anatomy/lower-limbs/femur-lateral-2.png`
             ],
-            description: "WIP"
+            description: "WIP",
+            cm: 19,
+            kVp: 87.5,
+            mAs: 14,
+            sid: "40\""
           }
         ]
       },
@@ -314,7 +398,11 @@ export const items = [
               `${BASE}images/anatomy/lower-limbs/knee-ap-1.png`,
               `${BASE}images/anatomy/lower-limbs/knee-ap-2.png`
             ],
-            description: "WIP"
+            description: "WIP",
+            cm: 13,
+            kVp: 70,
+            mAs: 5,
+            sid: "40\""
           },
           {
             id: "knee-lateral",
@@ -323,7 +411,11 @@ export const items = [
               `${BASE}images/anatomy/lower-limbs/knee-lateral-1.png`,
               `${BASE}images/anatomy/lower-limbs/knee-lateral-2.png`
             ],
-            description: "WIP"
+            description: "WIP",
+            cm: 13,
+            kVp: 70,
+            mAs: 5,
+            sid: "40\""
           }
         ]
       }
