@@ -280,11 +280,11 @@ export const items = [
         name: "Abdomen",
         items: [
           {
-            id: "direct-abdominal-decubitus",
-            name: "Direct Abdominal (decubitus position)",
+            id: "direct-abdominal",
+            name: "Direct Abdominal",
             images: [
-              `${BASE}images/anatomy/abdomen/direct-abdominal-decubitus-1.png`,
-              `${BASE}images/anatomy/abdomen/direct-abdominal-decubitus-2.png`
+              `${BASE}images/anatomy/abdomen/direct-abdominal-1.png`,
+              `${BASE}images/anatomy/abdomen/direct-abdominal-2.png`
             ],
             description: "WIP",
             cm: 24,
@@ -292,19 +292,19 @@ export const items = [
             mAs: 22,
             sid: "40\""
           },
-          {
-            id: "direct-abdominal-upright",
-            name: "Direct Abdominal (upright)",
-            images: [
-              `${BASE}images/anatomy/abdomen/direct-abdominal-upright-1.png`,
-              `${BASE}images/anatomy/abdomen/direct-abdominal-upright-2.png`
-            ],
-            description: "WIP",
-            cm: 21,
-            kVp: 85,
-            mAs: 25,
-            sid: "40\""
-          }
+          // {
+          //   id: "direct-abdominal-upright",
+          //   name: "Direct Abdominal (upright)",
+          //   images: [
+          //     `${BASE}images/anatomy/abdomen/direct-abdominal-upright-1.png`,
+          //     `${BASE}images/anatomy/abdomen/direct-abdominal-upright-2.png`
+          //   ],
+          //   description: "WIP",
+          //   cm: 21,
+          //   kVp: 85,
+          //   mAs: 25,
+          //   sid: "40\""
+          // }
         ]
       },
       {
