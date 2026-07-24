@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { items } from "../data/items";
+import BulletList from "../components/BulletList";
 
 export default function Anatomy() {
   const { id } = useParams();
@@ -55,9 +56,30 @@ export default function Anatomy() {
       </div>
 
       <div className="bottom-content">
+        <BulletList 
+          title="Patient Position" 
+          items={item.patient_position} 
+        />
+
+        <BulletList 
+          title="Part Position" 
+          items={item.part_position} 
+        />
+
+        <BulletList 
+          title="Respiration" 
+          items={item.respiration} 
+        />
+
+        <BulletList 
+          title="Central Ray" 
+          items={item.central_ray} 
+        />
+
         <p>kVp: {item.kVp}</p>
         <p>mAs: {item.mAs}</p>
         <p>SID: {item.sid}</p>
+        
       </div>
     </div>
   );

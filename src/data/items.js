@@ -231,10 +231,26 @@ export const items = [
               `${BASE}images/anatomy/chest/chest-pa-2.png`
             ],
             description: "WIP",
+            patient_position: [
+              "Position patient standing or seated upright, with back of hands on hips."
+            ],
+            part_position: [
+              "Center MSP with chin extended and eyes straight ahead.",
+              "Have patient roll shoulders forward.",
+              "Place top of exposure light field/IR 4 to 5 cm (1.5 to 2 inches) above relaxed shoulders.",
+              "Have patient flex arms and rest backs of hands on hips."
+            ],
+            respiration: [
+              "Suspended after second full inspiration.",
+            ],
+            central_ray: [
+              "Perpendicular to the center of the IR."
+            ],
             cm: 22,
             kVp: 120,
             mAs: 2.8,
-            sid: "72\""
+            sid: "72\"",
+            collimation: "14x17\""
           },
           {
             id: "chest-lateral",
@@ -244,6 +260,21 @@ export const items = [
               `${BASE}images/anatomy/chest/chest-lateral-2.png`
             ],
             description: "WIP",
+            patient_position: [
+              "Position patient standing or seated upright, with left side against IR."
+            ],
+            part_position: [
+              "Place MSP parallel to IR.",
+              "Have patient rest adjacent shoulder against IR holder, with arms raised and crossed over head.",
+              "Place top of exposure light field/IR 4 to 5 cm (1.5 to 2 inches) above shoulder.",
+              "Center thorax to IR."
+            ],
+            respiration: [
+              "Suspended after second full inspiration."
+            ],
+            central_ray: [
+              "Direct perpendicular to IR, entering patient at level of T7."
+            ],
             cm: 33,
             kVp: 120,
             mAs: 7.1,

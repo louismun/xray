@@ -64,6 +64,16 @@ a > div:active {
   background: #182127;
 }
 
+h4 {
+  margin: 0;
+  color: #cfe8f5;
+}
+
+ul {
+  margin: 8px;
+  color: #cfe8f5;
+}
+
 button {
   background: transparent;
   color: #56a19e;
@@ -94,6 +104,7 @@ button:active {
 .anatomy-page h1 {
   text-align: center;
 }
+
 
 .subcategory {
   padding-bottom: 20px;
