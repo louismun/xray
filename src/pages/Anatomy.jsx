@@ -76,9 +76,9 @@ export default function Anatomy() {
           items={item.central_ray} 
         />
 
-        <p>kVp: {item.kVp}</p>
-        <p>mAs: {item.mAs}</p>
-        <p>SID: {item.sid}</p>
+        {item.kVp && <p>kVp: {item.kVp}</p>}
+        {item.mAs && <p>mAs: {item.mAs}</p>}
+        {item.sid && <p>SID: {item.sid}</p>}
         
       </div>
     </div>

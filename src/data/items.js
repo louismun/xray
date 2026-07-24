@@ -230,7 +230,6 @@ export const items = [
               `${BASE}images/anatomy/chest/chest-pa-1.png`,
               `${BASE}images/anatomy/chest/chest-pa-2.png`
             ],
-            description: "WIP",
             patient_position: [
               "Position patient standing or seated upright, with back of hands on hips."
             ],
@@ -259,7 +258,6 @@ export const items = [
               `${BASE}images/anatomy/chest/chest-lateral-1.png`,
               `${BASE}images/anatomy/chest/chest-lateral-2.png`
             ],
-            description: "WIP",
             patient_position: [
               "Position patient standing or seated upright, with left side against IR."
             ],
@@ -279,6 +277,58 @@ export const items = [
             kVp: 120,
             mAs: 7.1,
             sid: "72\""
+          },
+          {
+            id: "chest-ap",
+            name: "Chest AP",
+            images: [
+              `${BASE}images/anatomy/chest/chest-ap-1.png`,
+              `${BASE}images/anatomy/chest/chest-ap-2.png`
+            ],
+            patient_position: [
+              "Position patient supine or upright, arms at sides."
+            ],
+            part_position: [
+              "Center IR to MSP, then adjust upper border of exposure light field/IR to be 4 to 5 cm (1.5 to 2 inches) above shoulders.",
+              "If possible, have patient flex elbows, pronate hands, and place hands on hips.",
+            ],
+            respiration: [
+              "Suspended after second full inspiration."
+            ],
+            central_ray: [
+              "Perpendicular to center of IR at level 8 cm (3 inches) below jugular notch (level of T7)."
+            ],
+            cm: 33,
+            kVp: "105 (40\" SID, grid)",
+            mAs: 7.1,
+            sid: "72\""
+          },
+          {
+            id: "chest-lateral-decubitus",
+            name: "Chest Lateral Decubitus (Mobile)",
+            images: [
+              `${BASE}images/anatomy/chest/chest-lateral-decubitus-1.png`,
+              `${BASE}images/anatomy/chest/chest-lateral-decubitus-2.png`
+            ],
+            patient_position: [
+              "Position patient in lateral recumbent position.",
+              "Place firm support under patient to elevate body 5 to 8 cm (2 to 3 inches).",
+              "Raise both arms up and away from chest region.",
+              "Ensure that patient cannot fall out of bed."
+            ],
+            part_position: [
+              "Perform AP projection whenever possible.",
+              "Adjust patient to ensure true lateral position.",
+              "Place IR behind patient and below support.",
+              "Adjust grid so that it extends 5 cm (2 inches) above shoulders."
+            ],
+            respiration: [
+              "Inspiration."
+            ],
+            central_ray: [
+              "Horizontal and perpendicular to center of IR."
+            ],
+            kVp: "105 (40\" grid)",
           }
         ]
       },
